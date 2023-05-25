@@ -1,0 +1,567 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/font/stylesheet.css);
+
+
+a:hover {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.content {
+    margin: 0 auto 160px;
+    width: 77.2%;
+    display: flex;
+}
+
+.header {
+    padding: 20px 0 20px;
+    /* padding-left: 11.4%; */
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: 220px; */
+    background-color: rgba(1, 12, 19, 1);
+    /* max-width: 620px; */
+    max-height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.header__container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 77.2%;
+}
+
+.header__logo {
+    /* width: 154px;
+    max-height: 42px; */
+}
+
+.header__line {
+    margin: 0 20px 0 20px;
+    border-left: 2px solid rgba(255, 255, 255, 1);
+    height: 68px;
+}
+
+.header__title {
+    width: 324px;
+    height: 24px;
+    color: rgba(255, 255, 255, 1);
+    /* border-left: 2px solid white; */
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.brands {
+    width: 33.7%;
+    max-width: 500px;
+    margin-right: 60px;
+}
+
+.brands__container {
+    max-width: 400px;
+    width: 80.4%;
+}
+
+.brands__title {
+    margin: 30px 0 10px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.02em;
+
+}
+
+.brand {
+    /* width: 55px; */
+    /* height: 24px; */
+    padding: 6px 19px;
+    margin: 10px 10px 0 0;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: white;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    border: 2px solid #010C13;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.brand:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+.brand:last-child {
+    margin-right: 0;
+}
+
+.goods {
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.goods__title {
+    /* padding-left: 11.4%; */
+    margin: 0 auto 60px;
+    width: 77.2%;
+    font-family: 'Tactic Sans';
+    /* margin: 0 0 60px 0; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.cards__container {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 42px;
+    max-width: 920px;
+    width: 68%;
+    /* grid-template-columns: repeat; */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* place-content: center; */
+    /* max-width: 626px; */
+    /* display: flex; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .95);
+    /* width: 440px; */
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    /* height: 292px; */
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card__title {
+    margin: 20px 0 12px;
+    width: 100%;
+    height: 90px;
+    font-family: 'Tactic Sans';
+    /* font-style: bold; */
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+}
+
+.card__image {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.card__spec {
+    margin: 0 0 28px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #9AA7AD;
+}
+
+.card__button {
+    height: 80px;
+    width: 100%;
+    color: #FFFFFF;
+    background: rgba(202, 1, 0, 1);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.car {
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 77.2%;
+}
+
+.car__title {
+    margin: 0 0 20px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+}
+
+.car__vin {
+    margin: 0 0 80px;
+    ;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9AA7AD;
+}
+
+.car__container {
+    display: flex;
+}
+
+.offer {
+    margin-right: 31px;
+    display: flex;
+    flex-direction: column;
+    max-width: 626px;
+    width: 40.8%;
+}
+
+.car__price {
+    padding-left: 40px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    /* width: 100%; */
+    height: 82px;
+    background-color: #F4F7F8;
+    border-radius: 12px;
+    color: #CA0100;
+}
+
+.car__price_ru {
+    margin-left: 8px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #CA0100;
+    font-stretch: 151;
+    font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+}
+
+.car__virgs {
+    padding-left: 40px;
+    margin: 20px 0 60px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    /* width: 100%; */
+    height: 82px;
+    background-color: #F4F7F8;
+    border-radius: 12px;
+    color: #010C13;
+}
+
+.car__logo-safety {
+    margin-right: 20px;
+}
+
+.specs {}
+
+.car__specs-title {
+    margin: 0 0 30px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+}
+
+.specs__list {
+    padding: 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #F4F7F8;
+    border-radius: 16px;
+}
+
+.car__charact {
+    margin-bottom: 20px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #010C13;
+}
+
+.car__charact:last-child {
+    margin-bottom: 0;
+}
+
+.car__logo {
+    margin-right: 40px;
+}
+
+.slider {
+    max-width: 876px;
+    width: 57.1%;
+}
+
+.car__image {
+    margin-bottom: 40px;
+}
+
+
+
+.promo {
+    margin: 0 auto;
+    max-width: 620px;
+}
+
+.promo__title {
+    margin: 50px auto 22px;
+    padding: 4px 0 4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.promo__content {
+    padding: 0 0 35px;
+    border-radius: 4px;
+    color: #131316;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.overwiew {
+    display: flex;
+    flex-direction: row;
+}
+
+.promo__image {
+    width: 305px;
+}
+
+.info {
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.info__rate {
+    margin-bottom: 10px;
+}
+
+.info__name {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    height: 29px;
+}
+
+.info__description {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.prices {
+    margin: 17px 0 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info__price {
+    width: 60px;
+    height: 20px;
+    letter-spacing: -0.06em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D9D9D9;
+}
+
+.info__price_current {
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #131316;
+}
+
+.info__price-discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 24px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    background-color: #FF0000;
+    border-radius: 4px;
+}
+
+.discounts {
+    /* margin-bottom: 28px; */
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.discounts__descriptions {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__discount-description {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.discounts__amounts {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.info__discount-amount {
+    display: flex;
+    align-items: center;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.info__discount-amount_higher {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+.promo__order {
+    flex-direction: column;
+}
+
+.promo__promocode {
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131316;
+    width: 278px;
+    height: 57px;
+    border: 1px dashed #131316;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    transition: ease-in-out 0.3s;
+}
+
+.promo__button {
+    margin: 0 auto;
+    padding: 0;
+    width: 280px;
+    height: 60px;
+    color: #FFFFFF;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+    .cards__container {
+        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    }
+}
